@@ -1,14 +1,15 @@
 <!DOCTYPE html>
 <html lang="{{ config.language }}">
 <head>
+  <!-- Google AdSense start -->
+  {% include '_custom/google_adsense.ejs' %}
+  <!-- Google AdSense end -->
   {{ partial('_partials/head/head.swig', {}, {cache: theme.cache.enable}) }}
   {% include '_partials/head/head-unique.swig' %}
   {{- next_inject('head') }}
   <title>{% block title %}{% endblock %}</title>
   {{ partial('_third-party/analytics/index.swig', {}, {cache: theme.cache.enable}) }}
   {{ partial('_scripts/noscript.swig', {}, {cache: theme.cache.enable}) }}
-  
-  <script data-ad-client="ca-pub-6089679693321267" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 </head>
 
 <body itemscope itemtype="http://schema.org/WebPage">
