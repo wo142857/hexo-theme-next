@@ -1,3 +1,4 @@
 {#
-<script data-ad-client="ca-pub-6089679693321267" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+Custom head.
 #}
+<script data-ad-client="ca-pub-6089679693321267" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
